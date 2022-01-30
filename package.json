@@ -1,0 +1,24 @@
+{
+  "name": "hans_edwin",
+  "version": "1.0.0",
+  "description": "A website created with Vue.js to manage products easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Byenna/hans_edwin.git"
+  },
+  "author": "Juraia Pinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Byenna/hans_edwin/issues"
+  },
+  "homepage": "https://github.com/Byenna/hans_edwin#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "vue": "^2.6.14",
+    "w3": "^3.0.2"
+  }
+}
