@@ -1,2 +1,2 @@
 # hans_edwin
-A website created with Vue.js to manage products easier
+A website created with html, css and javascript
