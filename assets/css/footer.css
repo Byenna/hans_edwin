@@ -1,0 +1,9 @@
+.d-flex {
+    display: flex!important;
+    flex-direction: column;
+}
+
+footer {
+    background-color: rgba(80,57,48,0.8);
+    height: auto;
+}
