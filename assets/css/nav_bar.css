@@ -1,5 +1,20 @@
 .scrolled {
-    background-color: rgba(80,57,48,0.8);
+    background-color: rgba(179,164,136,0.8);
     transition: background 1s;
 }
 
+.home:hover {
+background-color: rgba(79,89,41,0.7);
+}
+
+.over_ons:hover {
+    background-color:rgba(79,89,41,0.7);
+}
+
+.onze_visie:hover {
+    background-color:rgba(79,89,41,0.7);
+}
+
+.informatie:hover {
+    background-color:rgba(79,89,41,0.7);
+}

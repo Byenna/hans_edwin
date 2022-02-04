@@ -7,10 +7,12 @@
 
     <title>De Warf</title>
     
+    <link rel='icon' href='/assets/images/website/logo.png' sizes='32x32'>
     <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'> -->
 
+   
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
@@ -19,9 +21,9 @@
     <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src='/node_modules/vue/dist/vue.js'></script>
 
-    <script src='/assets/js/components/nav_bar.js'></script>
+    <script src='/assets/js/components/layouts/nav_bar.js'></script>
     <script src='/assets/js/components/klimmers.js'></script>
-    <script src='/assets/js/components/foots.js'></script>
+    <script src='/assets/js/components/layouts/foots.js'></script>
 
     
     <script src='/assets/js/klimmers_data.js'></script>
@@ -38,7 +40,7 @@
     
     
     <section >
-        <div class="container">
+        <div class="container-fluid px-4">
 
             <div class="row">
                 <div class="col space_above_content"></div>
@@ -46,24 +48,23 @@
 
             <div class="row">
                 
-                <div class="col-7"></div>
+                <div class="col-2"></div>
     
-                <div class="col-5">			
+                <div class="col-md-12 col-lg-12 ">			
                 <h1 id="home_text" class="text-end text-white text-nowrap home_text">​"Welkom op de<br> Warf!"</h1>
                 </div>
+
+                <div class="col-1">			
+                    </div>
             </div>
 
-            
-
-            <!-- <div class="row">
-                <div class="col space_under_content"></div>
-                </div> -->
+                       
         </div>
     </section>
     
+    <!-- <klimmers></klimmers>
     <klimmers></klimmers>
-    <klimmers></klimmers>
-    <klimmers></klimmers>
+    <klimmers></klimmers> -->
 
 
     <foots></foots>

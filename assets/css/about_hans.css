@@ -1,0 +1,52 @@
+.wrapper {
+    column-count: 3;
+    column-gap: 50px;
+    padding: 20px;
+  }
+  
+  .myimage {
+    float:left;
+    width: 100%;
+    shape-margin:20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 1%;
+  }
+  
+.bg_section_about {
+    background-color: #8e8f5c;
+}
+
+.w3-animate-left {
+    position: relative;
+    animation: animateleft 3s;
+  }
+  
+  .w3-animate-right {
+    position: relative;
+    animation: animateright 3s;
+  }
+
+  
+
+.myimage {width: 8em} 
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .myimage {width: 10rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .myimage {width: 12rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .myimage {width: 14rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .myimage {width:16rem;} /*1rem = 16px*/    
+}

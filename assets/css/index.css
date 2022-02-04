@@ -1,3 +1,5 @@
+@font-face { font-family: Simple; src: url('/assets/css/fonts/PlainAndSimple-Regular.ttf'); } 
+
 body {
     background-image: url('/assets/images/ygroene_paddestoel_focus.jpg');
     background-repeat: no-repeat;
@@ -5,4 +7,16 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-color: #464646; 
+    font-family: Simple,Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Simple,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px 0;
+  }
+
+  p {
+    font-family:Arial, Helvetica, sans-serif;
 }
