@@ -3,14 +3,14 @@ Vue.component('nav_bar',{
     template: `
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-transparant fixed-top ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/assets/images/website/logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img src="/assets/images/website/logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="home fs-2 text-white  nav-link active" aria-current="page" href="#">Home</a>
+            <a class="home fs-2 text-white  nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class=" over_ons fs-2 text-white  nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
