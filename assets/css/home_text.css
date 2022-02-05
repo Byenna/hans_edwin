@@ -18,20 +18,17 @@
 @media (min-width: 768px) {  
   #home_text{
     font-size: 80px;
-    width: 350px;
+    /* width: 350px; */
   }
 
-  .wrapper {
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px;
-  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   #home_text{
     font-weight: 590;
+    
   } 
 
 }
