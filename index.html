@@ -7,22 +7,26 @@
 
     <title>De Warf</title>
     
+    <link rel='icon' href='/assets/images/website/logo.png' sizes='32x32'>
     <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'> -->
 
-    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/home_text.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
+  
  
     <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src='/node_modules/vue/dist/vue.js'></script>
 
-    <script src='/assets/js/components/nav_bar.js'></script>
+    <script src='/assets/js/components/layouts/nav_bar.js'></script>
     <script src='/assets/js/components/klimmers.js'></script>
-    <script src='/assets/js/components/foots.js'></script>
+    <script src='/assets/js/components/layouts/foots.js'></script>
 
-    <script src='/assets/js/klimmers_data.js'></script>
+    
+    
     <script src='/assets/js/script.js'></script>
 </head>
 
@@ -30,29 +34,27 @@
     
 <main id="app">
 
-    <nav_bar></nav_bar>
 
+    
+    <nav_bar></nav_bar>
+    
+    
     <section >
-        <div class="container">
+        <div class="container-fluid ">
 
             <div class="row">
                 <div class="col space_above_content"></div>
             </div>
 
             <div class="row">
-                
-                <div class="col-7"></div>
-    
-                <div class="col-5">			
-                <h1 id="home_text" class="text-end text-white text-nowrap home_text">​"Welkom op de<br> Warf!"</h1>
+                <div class="col">			
+                <h1 id="home_text" class="text-end text-white text-nowrap home_text">​"Welkom op de <br>Warf!"</h1>
                 </div>
-            </div>
 
-            
+               
+           
 
-            <!-- <div class="row">
-                <div class="col space_under_content"></div>
-                </div> -->
+                       
         </div>
     </section>
     
@@ -67,8 +69,11 @@
 
    
 
+<!-- start script color change nav-bar -->
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-
+<script src='/assets/js/nav_bar.js'></script>
       <script src='/assets/js/app.js'></script>
 </body>
 </html>

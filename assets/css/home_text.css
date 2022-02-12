@@ -1,0 +1,41 @@
+
+  /* Smallest devices */
+  #home_text {
+    font-weight: 550;
+    margin: auto;
+    font-size: 50px;
+} 
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  #home_text{
+    font-size: 70px;
+  } /*1rem = 16px*/
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  #home_text{
+    font-size: 80px;
+    /* width: 350px; */
+  }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #home_text{
+    font-weight: 590;
+    
+  } 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  #home_text{
+    font-size: 100px;
+    }
+}
