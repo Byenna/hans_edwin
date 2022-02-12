@@ -1,8 +1,7 @@
 
+  
 .bg_section_about {
     background-color: #8e8f5c;
-    padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 .w3-animate-left {
@@ -14,21 +13,20 @@
     position: relative;
     animation: animateright 3s;
   }
-/* 
+
   /* Smallest devices */
-  .myimage_boerenkool {
-    width: 450px;
+  .myimage_edwin {
+    width: 250px;
     shape-margin:20px;
     margin: 10px;
     border-radius: 2%;
     margin: auto;
-    align-items: baseline;
 } 
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
-  .myimage_boerenkool{
-    width: 600px;
+  .myimage_edwin{
+    width: 200px;
   } /*1rem = 16px*/
 
 
@@ -36,21 +34,21 @@
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-  .myimage_boerenkool{
-    width: 800px;
+  .myimage_edwin{
+    width: 350px;
   }
 
-  /* .wrapper {
-    column-count: 2;
+  .wrapper {
+    /* column-count: 2; */
     column-gap: 50px;
     padding: 20px;
-  /* } */
-} 
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .myimage_boerenkool{
-    width: 900px;
+  .myimage_edwin{
+    width: 500px;
   } 
 
  
@@ -58,13 +56,7 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-  .myimage_boerenkool{
-    width: 1000px;
-  }
-   
-} 
-
-
-/* body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif} */
-/* .mySlides {display: none} */
- 
+  .myimage_edwin{
+    width:600px;
+  }   
+}
