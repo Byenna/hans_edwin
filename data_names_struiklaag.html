@@ -1,99 +1,174 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <title>JavaScript Table Filter Search</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-        h3 span {
-            font-size: 22px;
-        }
-        h3 input.search-input {
-            width: 300px;
-            margin-left: auto;
-            float: right
-        }
-        .mt32 {
-            margin-top: 32px;
-        }
-    </style>
-</head>
-<body class="mt32">
-    <div class="container">
-        <h3>
-            <span>JavaScript Filter Table Data</span>
-            <input type="search" placeholder="Search..." class="form-control search-input" data-table="customers-list"/>
-        </h3>
-        <table class="table table-striped mt32 customers-list">
-            <thead>
-                <tr>
-                    <th>Customer ID</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Postal Code</th>
-                    <th>Country</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Ana Trujillo</td>
-                    <td>Ana.trujillo@gmail.com</td>
-                    <td>050214</td>
-                    <td>Germany</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Antonio Moreno</td>
-                    <td>antoniomoreno2@gmail.com</td>
-                    <td>12209</td>
-                    <td>Mexico</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Maria Anders</td>
-                    <td>mariaanders@yahoo.com</td>
-                    <td>05021</td>
-                    <td>Germany</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Thomas Hardy</td>
-                    <td>hardythomas.90@gmail.com</td>
-                    <td>WA1 1DP</td>
-                    <td>United Kingdom</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Christina Berglund</td>
-                    <td>christina@outlook.com</td>
-                    <td>S-958 22</td>
-                    <td>Sweden</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Davolio Nancy</td>
-                    <td>nancy.davolio@gmail.com</td>
-                    <td>810025</td>
-                    <td>India</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Fuller Andrew</td>
-                    <td>andrew.10@yahoo.com</td>
-                    <td>W23 458</td>
-                    <td>United State</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Leverling Janet</td>
-                    <td>leverling.j@gmail.com</td>
-                    <td>T5A 0B5</td>
-                    <td>Canada</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <script src="/assets/js/data_names_struiklaag.js"></script>
+
     
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>De struiklaag</title>
+    
+    <link rel='icon' href='/assets/images/website/logo.png' sizes='32x32'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/data_names_struiklaag.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/about_edwin.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
+   
+ 
+    <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src='/node_modules/vue/dist/vue.js'></script>
+
+    <script src='/assets/js/components/layouts/nav_bar.js'></script>
+ 
+    
+
+    
+    
+    <script src='/assets/js/script.js'></script>
+</head>
+
+<body>
+  
+<main id="app">
+
+
+    
+    
+    <section class="bg-overlay">
+
+    <nav_bar></nav_bar>
+    
+	<div class="row">
+		<div class="col space_above_content"></div>
+	</div>
+
+
+	<div class="container-xl">
+		<h2 class="text-center text-white display-1">De struiklaag</h2>
+	</div>
+
+	<div class="container-xl rounded bg_section_about">
+		<div class="row">
+				
+				<div class="w3-center">
+					
+                   
+                    <body class="mt32">
+                        <div class="container pt-4">
+                            <h3>
+                                <input type="search" placeholder="Typ hier uw zoekopdracht..." class="form-control search-input" data-table="customers-list"/>
+                            </h3>
+                            <table class="table table-striped mt32 customers-list">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Oogst</th>
+                                        <th>Gebruik</th>
+                                        <th>Functie</th>
+                                        <th>Standplaats</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="/boerenkool.html">Boerenkool</a></td>
+                                        <td>Blad</td>
+                                        <td>vers, kook, bak, bak</td>
+                                        <td>Stikstof</td>
+                                        <td>schaduw</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Aardbei</td>
+                                        <td>Blad</td>
+                                        <td>vers, jam, bak</td>
+                                        <td>Chop & drop</td>
+                                        <td>schaduw</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Tomaat</td>
+                                        <td>Bes</td>
+                                        <td> jam, kook, bak</td>
+                                        <td>Stikstof</td>
+                                        <td>zon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Radijs</td>
+                                        <td>Bes</td>
+                                        <td>jam</td>
+                                        <td>Chop & drop</td>
+                                        <td>Halfschaduw</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Boerenkool</td>
+                                        <td>Bes</td>
+                                        <td>vers, jam, kook, bak</td>
+                                        <td>Stikstof</td>
+                                        <td>zon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Komkommer</td>
+                                        <td>knol</td>
+                                        <td>kook, bak</td>
+                                        <td>Stikstof</td>
+                                        <td>Halfschaduw</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Bieslook</td>
+                                        <td>knol</td>
+                                        <td>bak</td>
+                                        <td>Chop & drop</td>
+                                        <td>schaduw</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Prei</td>
+                                        <td>steel</td>
+                                        <td>jam, kook</td>
+                                        <td>Stikstof</td>
+                                        <td>zon</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+
+				</div>
+			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col space_under_content"></div>
+	</div>
+
+   
+
+</main>
+</section>
+   
+<script src="/assets/js/data_names_struiklaag.js"></script>
+<!-- start script color change nav-bar -->
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src='/assets/js/nav_bar.js'></script>
+      <script src='/assets/js/app.js'></script>
 </body>
 </html>

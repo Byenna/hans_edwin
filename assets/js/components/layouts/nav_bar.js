@@ -1,6 +1,6 @@
-Vue.component('nav_bar',{
+Vue.component('nav_bar', {
 
-    template: `
+  template: `
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-transparant fixed-top ">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="/assets/images/website/logo.png"></a>
@@ -19,20 +19,31 @@ Vue.component('nav_bar',{
             <ul class="fs-3 dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="about_edwin.html">Edwin Tepper</a></li>
               <li><a class="dropdown-item" href="about_hans.html">Hans Krens</a></li>
-              <li><a class="dropdown-item" href="about_geert.html">Geert Boer</a></li>
+              <li><a class="dropdown-item" href="about_gerrit.html">Gerrit Keijzer</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="onze_visie fs-2 text-white  nav-link" href="#">Onze visie</a>
-          </li>
+
+          <li class="nav-item dropdown">
+          <a class="informatie fs-2 text-white  nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Onze planten
+          </a>
+          <ul class="fs-3 dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Kruinlaag</a></li>
+            <li><a class="dropdown-item" href="data_names_struiklaag.html">Struiklaag</a></li>
+            <li><a class="dropdown-item" href="#">Kruidlaag</a></li>
+            <li><a class="dropdown-item" href="#">Klimmers</a></li>
+          </ul>
+        </li>
+
+         
           <li class="nav-item dropdown">
             <a class="informatie fs-2 text-white  nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Informatie
             </a>
             <ul class="fs-3 dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Soorten in het voedselbos</a></li>
-              <li><a class="dropdown-item" href="#">Soorten die wij vermeerderen</a></li>
-              <li><a class="dropdown-item" href="#">Onze werkwijze</a></li>
+              <li><a class="dropdown-item" href="#">Visie</a></li>
+              <li><a class="dropdown-item" href="#">Werkwijze</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
             </ul>
           </li>
         </ul>
