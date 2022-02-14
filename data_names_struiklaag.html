@@ -44,7 +44,7 @@
 
     
     
-    <section class="bg-overlay">
+    <!-- <section class="bg-overlay"> -->
 
     <nav_bar></nav_bar>
     
@@ -62,7 +62,7 @@
 				
 				<div class="w3-center">
 					
-                   
+                   <p class="fs-4">"Wij hebben de planten in ons voedselbos staan en doen er ervaring mee op. We vermeerderen deze planten doorlopend in kleine hoeveelheden, maar hebben vrijwel nooit grote hoeveelheden op voorraad. We kunnen op bestelling vermeerderen in wat grotere aantallen bij interesse."</p>
                     <body class="mt32">
                         <div class="container pt-4">
                             <h3>
@@ -81,8 +81,16 @@
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td class="btn btn-link"><a href="/data_names_struiklaag.html">Refresh</a></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
                                         <td>1</td>
-                                        <td><a href="/boerenkool.html">Boerenkool</a></td>
+                                       <td>Aardbei</td>
                                         <td>Blad</td>
                                         <td>vers, kook, bak, bak</td>
                                         <td>Stikstof</td>
@@ -90,7 +98,7 @@
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>Aardbei</td>
+                                        <td><a href="/boerenkool.html">Boerenkool</a></td>
                                         <td>Blad</td>
                                         <td>vers, jam, bak</td>
                                         <td>Chop & drop</td>
@@ -158,10 +166,11 @@
 		<div class="col space_under_content"></div>
 	</div>
 
-   
 
 </main>
-</section>
+<!-- </section> -->
+
+
    
 <script src="/assets/js/data_names_struiklaag.js"></script>
 <!-- start script color change nav-bar -->
@@ -170,5 +179,22 @@
 
 <script src='/assets/js/nav_bar.js'></script>
       <script src='/assets/js/app.js'></script>
+
+<script>
+    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+// do the work...
+document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+    const table = th.closest('table');
+    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .forEach(tr => table.appendChild(tr) );
+})));
+</script>
+
 </body>
 </html>
