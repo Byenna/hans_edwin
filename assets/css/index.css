@@ -1,25 +1,32 @@
-@font-face { font-family: Simple; src: url('/assets/css/fonts/PlainAndSimple-Regular.ttf'); } 
+@font-face { font-family: cardenio-modern; src: url('/assets/css/fonts/Cardenio\ Modern\ Std.ttf'); } 
 
 body {
-    background-image: url('/assets/images/ygroene_paddestoel_focus.jpg');
+    background-image: url('/assets/images/website/womanEatsApple.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    /* background-position: center center; */
+    /* background-size: cover; */
     background-attachment: fixed;
     background-color: #464646; 
-    font-family: Simple,Helvetica,Arial,sans-serif;
-    /* overflow: hidden; */
+    font-family: cardenio-modern ,Helvetica,Arial,sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
+.btn {
+  background-color: #a2b761;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: Simple,Helvetica,Arial,sans-serif;
+    font-family: cardenio-modern ,Helvetica,Arial,sans-serif;     
     font-weight: 400;
     line-height: 1;
     /* margin: 20px 0; */
   }
 
 .bg-overlay {
-  background-color: rgba(179,164,136,0.5);;
+  background-color: rgba(86,100,54,0.5);;
 }
 
 .space_above_content {
@@ -28,6 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .space_under_content {
     height: 19em;
+}
+
+#about-container {
+  background-color:rgba(179,164,136, 1);
+  
+}
+.about_image {
+  float: left;
+  /* width: 13em; */
 }
 
 /* .container {margin:2em 0;} */

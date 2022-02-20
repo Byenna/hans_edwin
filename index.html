@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-   <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <title>De Warf</title>
-    
+
     <link rel='icon' href='/assets/images/website/logo.png' sizes='32x32'>
     <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'> -->
 
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/landingpage_text.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/home_text.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
-  
+
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
- 
+
     <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src='/node_modules/vue/dist/vue.js'></script>
 
@@ -25,55 +27,85 @@
     <script src='/assets/js/components/klimmers.js'></script>
     <script src='/assets/js/components/layouts/foots.js'></script>
 
-    
-    
+
+
     <script src='/assets/js/script.js'></script>
 </head>
 
 <body>
-    
-<main id="app">
+
+    <main id="app">
 
 
-    
-    <nav_bar></nav_bar>
-    
-    
-    <section >
-        <div class="container-fluid ">
 
-            <div class="row">
-                <div class="col space_above_content"></div>
-            </div>
+        <nav_bar></nav_bar>
 
-            <div class="row">
-                <div class="col">			
-                <h1 id="home_text" class="text-end text-white text-nowrap home_text">​"Welkom op de <br>Warf!"</h1>
+
+
+        <section>
+            
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-5 bg-transparent text-white">
+                  <div id="landingpage_text">
+                    <h1 id="home_text" class="text-md-center text-nowrap">​"Welkom op de <br>Warf!"<br><button
+                        class="btn btn-sm text-white"><p><a class="text-decoration-none fs-4" href="/planten.html">Eetbare planten</a></p></button>
+                    </h1>
+                  </div>
                 </div>
+        
+                <div class="col-sm bg-transparent text-white">
+        
+                </div>
+        
+                <div class="col-sm bg-transparent text-white"></div>
+              </div>
+            </div>
+        
+            </div>
+          </section>
 
-               
-           
+          <div id="about-container" class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h2 class="display-1 text-center">De Warf</h2>
+                <p>  De Warf wil experimenteren met vormen van natuurinclusieve landbouw, op basis van permacultuur. Op de Warf voeden we de bodem, zodat we onze grond in betere gezondheid kunnen doorgeven aan de volgende generatie. Een gezonde bodem geeft gezond voedsel.
+                  Op kleine schaal willen we onderzoeken of we lokale afzet kunnen vinden voor de bessen, fruit en noten die we kweken. Bovendien willen we een plek zijn waar we kunnen leren wat werkt en wat niet. We produceren planten en vergroten de biodiversiteit. We oogsten dus meer dan alleen fruit.
+                  We werken voornamelijk met vaste planten en vermeerderen die zelf. <img class="about_image img-fluid img-thumbnail rounded  d-block" src="/assets/images/website/warf.png" alt="">We doen ervaring op met enten, stekken, afleggen en composteren. We vermeerderen planten door gebruik te maken van aquaponics. We verbouwen planten in verschillende lagen binnen het voedselbos-principe en experimenteren met Alley cropping op kleine schaal. We hebben een voorkeur voor bijzondere vaste planten die klimaatadaptief kunnen worden ingezet.
+                  </p><p>2017 zijn we begonnen met onze eerste stappen. In 2021 hebben we 2 ha. landbouwgrond aangekocht waardoor we nu boeren op ruim 2,5 ha. We ontdekken steeds meer nieuwe smaken en zoeken mensen die daar op termijn weer iets mee kunnen gaan ondernemen.
+                </p>
+              </div>
+        
+        
+              <!-- <div class="col">
+                <img class="about_image img-fluid img-thumbnail rounded  d-block" src="/assets/images/ygele_paddestoel.jpg" alt="">
+              </div> -->
+            </div>
+          </div>
+          </div>
 
-                       
-        </div>
-    </section>
-    
-    <!-- <klimmers></klimmers>
+
+        <!-- <klimmers></klimmers>
     <klimmers></klimmers>
     <klimmers></klimmers> -->
 
 
-    <foots></foots>
+        <foots></foots>
 
-</main>
+    </main>
 
-   
 
-<!-- start script color change nav-bar -->
-<script src="/node_modules/jquery/dist/jquery.min.js"></script>	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-<script src='/assets/js/nav_bar.js'></script>
-      <script src='/assets/js/app.js'></script>
+    <!-- start script color change nav-bar -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src='/assets/js/nav_bar.js'></script>
+    <script src='/assets/js/app.js'></script>
+    <script src="/assets/js/landingpage_text.js"></script>
 </body>
+
 </html>

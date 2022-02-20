@@ -2,14 +2,22 @@
   /* Smallest devices */
   #home_text {
     font-weight: 550;
-    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 12em;
     font-size: 50px;
 } 
+
+.home_text_button {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
   #home_text{
     font-size: 70px;
+    /* margin-bottom: 7em; */
   } /*1rem = 16px*/
 
 }
@@ -18,6 +26,7 @@
 @media (min-width: 768px) {  
   #home_text{
     font-size: 80px;
+    /* margin-bottom: 7em; */
     /* width: 350px; */
   }
 
@@ -28,6 +37,7 @@
 @media (min-width: 992px) { 
   #home_text{
     font-weight: 590;
+    /* margin-bottom: 7em; */
     
   } 
 
@@ -37,5 +47,6 @@
 @media (min-width: 1200px) {  
   #home_text{
     font-size: 100px;
+    margin-bottom: 7em;
     }
 }

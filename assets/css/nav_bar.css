@@ -18,3 +18,7 @@ background-color: rgba(79,89,41,0.7);
 .informatie:hover {
     background-color:rgba(79,89,41,0.7);
 }
+
+.logo {
+    background-color: aliceblue;
+}
