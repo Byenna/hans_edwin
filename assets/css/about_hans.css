@@ -1,6 +1,5 @@
-  
 .bg_section_about {
-    background-color: #8e8f5c;
+    background-color: #a2b761;
 }
 
 .w3-animate-left {
@@ -13,28 +12,31 @@
     animation: animateright 3s;
   }
 
-  
+  .myimage {
+    float: right;
+  }
   /* Smallest devices */
   .myimage_hans {
     width: 250px;
     shape-margin:20px;
-    margin: 10px;
+    padding-top: 10px;
     border-radius: 2%;
     margin: auto;
+    float: right;
 } 
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
   .myimage_hans{
-    width: 200px;
+    width: 250px;
   } /*1rem = 16px*/
 
-  .wrapper {
+  /* .wrapper {
     column-count: 2;
     column-gap: 50px;
     padding: 20px;
 
-  }
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -44,25 +46,24 @@
     
   }
 
-  .wrapper {
+  /* .wrapper {
     column-count: 2;
     column-gap: 50px;
     padding: 20px;
-  }
+  } */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   .myimage_hans{
-    width: 500px;
+    width: 450px;
   } 
 
- 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
   .myimage_hans{
-    width:600px;
+    width:450px;
   }   
 }

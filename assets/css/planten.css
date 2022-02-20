@@ -1,0 +1,44 @@
+/* [1] The container */
+.img-hover-zoom {
+    height: 18em;
+    /* [1.1] Set it as per your need */
+    overflow: hidden;
+    /* [1.2] Hide the overflowing of child elements */
+    width: fit-content;
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform 2s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+  .content {
+      margin-top: 1em;
+     
+  }
+
+  .space_under_planten {
+     padding-bottom: 4em;
+  }
+
+  .col{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .card {
+    width: 40em;
+      margin-top: 3em;
+  }
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  height: 14em;
+}

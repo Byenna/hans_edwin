@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>De Warf</title>
+
+  <link rel='icon' href='/assets/images/website/logo.png' sizes='32x32'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'> -->
+
+  <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/planten.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/home_text.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
+
+  <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
+
+  <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+  <script src='/node_modules/vue/dist/vue.js'></script>
+
+  <script src='/assets/js/components/layouts/nav_bar.js'></script>
+  <script src='/assets/js/components/klimmers.js'></script>
+  <script src='/assets/js/components/layouts/foots.js'></script>
+
+
+
+  <script src='/assets/js/script.js'></script>
+</head>
+
+<body>
+
+  <main id="app">
+
+    <nav_bar></nav_bar>
+
+    <section class="bg-overlay space_under_planten">
+
+      <div class="row">
+        <div class="col space_above_content"></div>
+      </div>
+
+      <div class="container-xl text-center">
+        <h2 class="text-center text-white display-1">Onze planten</h2>
+        <div id="myBtnContainer">
+
+          <button class="btn fs-4 unfiltered" id="filter-all"> Alle soorten</button>
+          <button class="btn fs-4 filter-button" category="kruinlaag">Kruinlaag</button>
+          <button class="btn fs-4 filter-button" category="struiklaag">Struiklaag</button>
+          <button class="btn fs-4 filter-button" category="kruidlaag">Kruidlaag</button>
+          <button class="btn fs-4 filter-button" category="klimmers">Klimmers</button>
+
+        </div>
+
+        <section class="content">
+
+          <div class="container ">
+            <div class="row">
+              <div class="col gallery_product" category="kruinlaag">
+
+                <div class="card" >
+                  <div class="img-hover-zoom">
+                    <img src="assets/images/website/xkruin.jpg" class="card-img-top" alt="kruinlaag">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Kruinlaag</h5>
+                    <p class="card-text fs-4">Fruitbomen en Notenbomen. We enten op kleine schaal Peer, Mispel, Kastanje, Appels en Pruimen. Ook doen we ervaring op met Toona en Sechuan.</p>
+                    <a href="/data_names_kruinlaag.html" class="btn fs-5">Bekijk de lijst</a>
+                  </div>
+                </div>
+              </div>
+           
+
+            
+              <div class="col gallery_product" category="struiklaag">
+                <div class="card" >
+                  <div class="img-hover-zoom">
+                    <img src="assets/images/website/xstruik.jpg" class="card-img-top" alt="struiklaag">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Struiklaag</h5>
+                    <p class="card-text fs-4">Bessen, Frambozen, Citrus en Vijgen. Deze stekken we of leggen we af. Zowel in volle grond als in ons aquaponics systeem. Daarna kweken we ze op in pot. Vijgen en Citrussen vooral onze aandacht in verband met klimaatadaptatie.</p>
+                    <a href="/data_names_struiklaag.html" class="btn fs-5">Bekijk de lijst</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="row">
+              <div class="col gallery_product" category="kruidlaag">
+                <div class="card" >
+                  <div class="img-hover-zoom">
+                    <img src="assets/images/website/xkruid.jpg" class="card-img-top" alt="kruidlaag">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Kruidlaag</h5>
+                    <p class="card-text fs-4"> De gangbare kruiden voor keuken en thee, deze vermeerderen op bestelling</p>
+                    <a href="/data_names_kruidlaag.html" class="btn fs-5">Bekijk de lijst</a>
+                  </div>
+                </div>
+              </div>
+            
+
+            
+              <div class="col gallery_product" category="klimmers">
+                <div class="card" >
+                  <div class="img-hover-zoom">
+                    <img src="assets/images/website/xklim.jpg" class="card-img-top" alt="klimlaag">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Klimmers</h5>
+                    <p class="card-text fs-4">Kiwibessen, Druiven</p>
+                    <a href="/data_names_klimlaag.html" class="btn fs-5">Bekijk de lijst</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+
+
+            </div>
+
+          </div>
+
+      </div>
+      </div>
+    </section>
+    </section>
+
+    <foots></foots>
+
+  </main>
+
+
+  <!-- start script color change nav-bar -->
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <script src='/assets/js/nav_bar.js'></script>
+  <script src='/assets/js/app.js'></script>
+  <script src="/assets/js/planten.js"></script>
+</body>
+
+</html>
