@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mierik</title>
+
+    <link rel='icon' href='/assets/images/website/logo.png' sizes='32x32'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen'
+        href='/node_modules/@fortawesome/fontawesome-free/css/all.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/about_edwin.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/index.css'>
+    <!-- specific for Mierik.html -->
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/plants_display.css'>
+    <!-- end specific for Mierik.html -->
+
+    <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src='/node_modules/vue/dist/vue.js'></script>
+
+    <script src='/assets/js/components/layouts/nav_bar.js'></script>
+    <script src='/assets/js/components/layouts/foots.js'></script>
+    <script src='/assets/js/script.js'></script>
+</head>
+
+<body>
+
+
+    <main id="app">
+
+
+
+        <nav_bar></nav_bar>
+
+        <section class="bg-overlay">
+
+            <div class="row">
+                <div class="col space_above_content"></div>
+            </div>
+
+
+            <div class="container-xl ">
+                <h2 class="text-center text-white display-1 mb-4">Mierik<br>
+                    <p>(Armoracia rusticana)</p>
+                </h2>
+            </div>
+
+            <div class="container-xl rounded bg_section_about">
+                <div class="row">
+
+
+                    <div class="w3-container" id="apartment">
+                        <!-- <h2 class="w3-text-white">The Apartment</h2> -->
+                        <div class="w3-display-container mySlides">
+                            <img src="/assets/images/plants/mierik/xmierik2.jpg" style="width:100%;margin-bottom:-6px">
+                            <div class="w3-display-bottomleft w3-container w3-black">
+                                <p>Mierik</p>
+                            </div>
+                        </div>
+                        <div class="w3-display-container mySlides">
+                            <img src="" style="width:100%;margin-bottom:-6px">
+                            <div class="w3-display-bottomleft w3-container w3-black">
+                                <p>Mierik</p>
+                            </div>
+                        </div>
+                        <div class="w3-display-container mySlides">
+                            <img src="/assets/images/plants/mierik/xmierik4.jpg" style="width:100%;margin-bottom:-6px">
+                            <div class="w3-display-bottomleft w3-container w3-black">
+                                <p>Vers van het land</p>
+                            </div>
+                        </div>
+                        <div class="w3-display-container mySlides">
+                            <img src="/assets/images/plants/mierik/xmierik5.jpg"
+                                style="width:100%;margin-bottom:-6px">
+                            <div class="w3-display-bottomleft w3-container w3-black">
+                                <p>Recept suggestie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="/assets/images/plants/mierik/xmierik2.jpg" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(1)" title="afbeelding">
+                        </div>
+                        <!-- <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(2)" title="afbeelding">
+                        </div> -->
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="/assets/images/plants/mierik/xmierik4.jpg" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(3)" title="Vers van het land">
+                        </div>
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="/assets/images/plants/mierik/xmierik5.jpg" style="width:89%;cursor:pointer"
+                                onclick="currentDiv(4)" title="Recept suggestie">
+                        </div>
+                    </div>
+
+                    <div class="w3-container">
+                        <h4 class="display-4"><strong>Specificaties</strong></h4>
+                        <hr>
+                        <div class="w3-row w3-large">
+                            <div class="w3-col s6">
+
+                                <p><i class="fas fa-apple-alt"></i> Oogst: wortel, honing</p>
+                                <p><i class="fas fa-mug-hot"></i> Gebruik: sauzen, alternatief voor mosterd en wasabi
+                                </p>
+
+                            </div>
+                            <div class="w3-col s6">
+                                <p><i class="fas fa-seedling"></i> Functie: eventueel blad als mulch</p>
+                                <p><i class="fas fa-sun"></i> Standplaats: zon, schaduw, halfschaduw</p>
+                            </div>
+                        </div>
+                        <hr>
+
+
+                        <!-- Tabs or Pills can be used in a card with the help of .nav-{tabs|pills} and .card-header-{tabs|pills} classes -->
+                        <div class="card card_detail">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+
+                                    <li class="nav-item" role="presentation">
+                                        <a class="text-success nav-link active fs-2" id="home-tab" data-bs-toggle="tab"
+                                            href="#home" role="tab" aria-controls="home"
+                                            aria-selected="true">Functies</a>
+                                    </li>
+
+                                    <li class="nav-item" role="presentation">
+                                        <a class="text-success nav-link fs-2" id="profile-tab" data-bs-toggle="tab"
+                                            href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hoe
+                                            vermeerderen?</a>
+                                    </li>
+
+                                    <li class="nav-item" role="presentation">
+                                        <a class="text-success nav-link fs-2" id="third-tab" data-bs-toggle="tab"
+                                            href="#third" role="tab" aria-controls="third" aria-selected="false">Extra
+                                            info</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                        aria-labelledby="home-tab">
+                                        <p>Mierik, vooral bekend onder de naam Mierikswortel is een zeer sterke, gezonde
+                                            plant waarvan de wortel veelal geraspt gebruikt wordt voor het op smaak
+                                            brengen van sausen en maaltijden, de bloemen worden veel bezocht door
+                                            insecten en zijn door de mildere smaak geschikt als bijvoorbeeld garnering.
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel"
+                                        aria-labelledby="profile-tab">
+                                        <p>Mierik is zeer eenvoudig te vermeerderen door middel van wortelstek.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+                                        <p>Doordat de plant erg diep wortelt is het lastig om de gehele wortel op te
+                                            graven, het voordeel is dat de plant vrijwel altijd weer terug komt als er
+                                            wortels blijven zitten, gelijkertijd kan het ook een groot nadeel zijn als
+                                            je de plant wilt verwijderen. De grote bladeren zijn geschikt als mulch: ze
+                                            groeien snel en kunnen (vrijwel) onbeperkt geoogst worden.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col space_under_content"></div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <script>
+
+
+        // Slideshow Apartment Images
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-opacity-off";
+        }
+
+    </script>
+
+    <!-- start script color change nav-bar -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src='/assets/js/nav_bar.js'></script>
+    <script src='/assets/js/app.js'></script>
+</body>
+
+</html>

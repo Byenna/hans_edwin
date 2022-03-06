@@ -39,6 +39,8 @@ Vue.component('nav_bar', {
               <li><a class="dropdown-item" href="index.html#about-container">Visie</a></li>
               <li><a class="dropdown-item" href="#">Werkwijze</a></li>
               <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="collage.html">Collage</a></li>
+
             </ul>
           </li>
         </ul>
